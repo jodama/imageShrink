@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="imageShrink:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/imageShrink_jar</output-path>
+    <root id="archive" name="imageShrink.jar">
+      <element id="module-output" name="imageShrink" />
+    </root>
+  </artifact>
+</component>

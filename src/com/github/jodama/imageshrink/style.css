@@ -1,0 +1,48 @@
+.dialog-pane {
+    -fx-background-color: darkorange;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: white;
+}
+
+.dialog-pane:header .header-panel {
+    -fx-background-color: orange;
+}
+
+.dialog-pane:header .header-panel .label {
+    -fx-font-style: italic;
+    -fx-font-size: 2em;
+}
+
+.button {
+    -fx-background-color: #ffd700;
+    -fx-graphic: url('/assets/background_normal.png');
+    -fx-graphic-text-gap: 10px
+}
+
+.button:hover {
+    -fx-background-color: #ffe700;
+    -fx-graphic: url('/assets/background_hover.png');
+}
+
+.button:pressed {
+    -fx-background-color: #ffc700;
+    -fx-graphic: url('/assets/background_pressed.png');
+}
+
+.combo-box {
+    -fx-background-color: #ffd700;
+}
+
+.combo-box:hover {
+    -fx-background-color: #ffe700;
+}
+
+.combo-box-popup .list-cell {
+    -fx-background-color: #ffc700;
+}
+
+.combo-box-popup .list-cell :hover {
+    -fx-text-fill: #00ff00;
+}
